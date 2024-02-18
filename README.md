@@ -1,17 +1,17 @@
-# RUTINER
-Min första React applikation. En  enkel react-app med rutiner. Ska bygga vidare på den och göra den roligare.
+# TODO APP
+My first React application. A simple React app. 
+A straightforward To-Do app built with React to manage your daily tasks.
 
-En enkel Rutiner app byggd med React för att hantera dina dagliga uppgifter.
+# Features
+Add Routines: Fill in the text field and click "Add to do" to create new routines.
+Mark as Completed: Click on the checkbox next to each todo to mark it as completed.
+Clear Completed: Clear all completed todos with a single click.
+Local Storage: Your todos are locally saved using localStorage, so they won't disappear when you refresh the page.
 
-## Funktioner
 
-- **Lägg till Rutiner:** Fyll i textfältet och klicka på "Add to do" för att skapa nya rutiner.
-- **Markera som avklarad:** Klicka på checkboxen bredvid varje todo för att markera den som avklarad.
-- **Rensa avklarade:** Rensa bort alla avklarade todos med ett enkelt klick.
-- **Lokal lagring:** Dina todos sparas lokalt med hjälp av localStorage, så de försvinner inte när du uppdaterar sidan.
-
-## Installation och Start
-
-1. **Klona projektet:**
-   
-   git clone https://github.com/bendarte/rutiner.git
+# Installation and Start
+Clone the project:
+git clone https://github.com/bendarte/rutiner.git
+then in the terminal you do two commands. (below) 
+npm install
+npm start 
