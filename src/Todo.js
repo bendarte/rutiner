@@ -1,12 +1,13 @@
 import React from 'react';
+import './App.css';
 
-export default function Todo({ todo, toggleTodo }) {
+function Todo({ todo, toggleTodo }) {
   function handleTodoClick() {
     toggleTodo(todo.id);
   }
 
   return (
-    <div>
+    <div className="todo-item">
       <label>
         <input
           type='checkbox'
@@ -18,3 +19,8 @@ export default function Todo({ todo, toggleTodo }) {
     </div>
   );
 }
+
+export default Todo;
+
+  
+
